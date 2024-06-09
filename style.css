@@ -12,10 +12,6 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
-    /* background-image: url(assets/img/bg-shoes.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 /* Header */
 header {
@@ -209,7 +205,7 @@ main {
     height: 95vh;
     position: relative;
     top: -1vw;
-    right: -1vw;
+    right: -0.5vw;
 }
 
 .bottom-sec {
