@@ -18,6 +18,7 @@ main {
     font-weight: 600;
     color: rgba(0, 0, 0, 0.4);
     margin-bottom: 10px;
+    font-size: 1.28vw;
 }
 
 .payment .left-container .detail {
@@ -29,7 +30,7 @@ main {
 }
 
 .payment .left-container .detail h2 {
-    font-size: 1.3rem;
+    font-size: 1.57vw;
     margin-bottom:0.5vw;
 }
 
@@ -52,7 +53,7 @@ main {
 }
 
 .left-container h2 {
-    font-size: 1.3rem;
+    font-size: 1.57vw;
     margin-bottom: 0.8vw;
 }
 
@@ -79,7 +80,6 @@ main {
 }
 .method i{
     font-size: 1.5vw;
-   
 }
 .method p{
     margin-top: 0.15vw;
@@ -157,7 +157,7 @@ main {
     outline: none;
     border: 0.5px solid rgba(150, 150, 150, 0.35);
     padding: 0.5vw;
-    font-size: 1.05rem;
+    font-size: 1.4vw;
 }
 form input::placeholder {
     color: rgb(205, 205, 205);
@@ -168,7 +168,7 @@ form input::placeholder {
     border-radius: 10px;
     outline: none;
     border: none;
-    font-size: 1rem;
+    font-size: 1.4vw;
     background-color: #0069ffec;
     color: #fff;
     float: right;
@@ -179,6 +179,7 @@ form input::placeholder {
 .right-container .card table tr td {
     color: #838383;
     height: 2.2vw;
+    font-size: 1.25vw;
 }
 .right-container .card table tr th{
     height: 2.2vw;
@@ -194,7 +195,7 @@ form input::placeholder {
     background-color: #f6b200;
     border-radius: 10px;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.5vw;
     font-weight: 600;
 }
 .right-container .bottom-icon {

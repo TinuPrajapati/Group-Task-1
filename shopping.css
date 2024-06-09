@@ -42,6 +42,7 @@ section h1{
 .left-container table tr th,td{
     text-align: left;
     padding: 0.5vw;
+    font-size: 1.25vw;
 }
 
 .left-container table tr th{
@@ -53,7 +54,7 @@ span.icon-right {
 }
 .mins-pp, .add-pp {
     font-weight: 600;
-    font-size: 11px;
+    font-size: 1.2vw;
     padding: 0px 7px;
 }
 .left-container table tr td i{
@@ -94,7 +95,7 @@ span.icon-right {
     outline: none;
     border: 0.5px solid rgba(150, 150, 150, 0.35);
     padding: 0.5vw;
-    font-size: 1.05rem;
+    font-size: 1.4vw;
 }
  form input::placeholder {
 color:rgb(205, 205, 205);
@@ -105,7 +106,7 @@ color:rgb(205, 205, 205);
     border-radius: 10px;
     outline: none;
     border:none;
-    font-size: 0.9rem;
+    font-size: 1.4vw;
     background-color: #0069ffec;
     color: #fff;
     float: right;
@@ -116,6 +117,7 @@ color:rgb(205, 205, 205);
 }
 .right-container .card table tr td{
     color:#838383;
+    
 }
 .right-container .align{
     text-align: right;
@@ -128,7 +130,7 @@ color:rgb(205, 205, 205);
     outline: none;
     background-color: #f6b200;
     border-radius: 10px;
-    font-size: 1.1rem;
+    font-size: 1.5vw;
     font-weight: 600;
 }
 .right-container button a{
