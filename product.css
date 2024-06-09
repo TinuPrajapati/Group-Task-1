@@ -1,0 +1,156 @@
+main section {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 6rem;
+}
+
+/*--breadcrumb ---*/
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #f7f7f7;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: var(--secondry-color);
+}
+
+ul.breadcrumb li a {
+    color: #8b8b8b;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #8b8b8b;
+    text-decoration: underline;
+}
+
+/*--breadcrumb ---*/
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-card_box {
+    width: 50%;
+}
+
+.right-card_box h1 {
+    color: var(--secondry-color);
+    font-size: 2vw;
+    margin: 10px 0px;
+}
+
+.right-card_box p {
+    color: var(--secondry-color);
+    font-size: 14px;
+    line-height: 2;
+}
+
+.price-discount .price {
+    padding: 1vw 1vw;
+    border-radius: 9px;
+    background-color: #6595e22e;
+    color: #2175fd;
+    font-size: 5vh;
+    font-weight: 700;
+    margin: 1vw 0.5vw;
+}
+
+.discount {
+    margin: 1vw 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.discount .tax {
+    color: #5c5c5ca5;
+}
+
+.save {
+    color: #37ae37b7;
+    font-weight: 700;
+    font-size: 4vh;
+}
+
+.quantity-Add-to-cart-container {
+    display: flex;
+}
+
+.quantity select {
+    border: none;
+    padding: 1vw 1vw;
+    background-color: #cacaca42;
+    border-radius: 9px;
+    text-align: center;
+    margin: 1vw 0.5vw;
+    font-size: 3vh;
+}
+
+.add-to-cart {
+    background-color: orange;
+    padding: 1vw 3vw;
+    margin: 1vw 0.5vw;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 3vh;
+}
+.add-to-cart a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.left-big-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+    margin: 1rem 2rem 1rem 0;
+    border-radius: 10px;
+}
+
+.left-big-img img {
+    width: 60%;
+}
+
+.price-discount {
+    display: flex;
+}
+
+.all-shoe-images {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.all-shoe-images::-webkit-scrollbar {
+    display: none;
+}
+
+.shoe-images {
+    display: inline-block;
+    margin: 0vw 2vw 0 0;
+    background: #f7f7f7;
+    padding: 16px;
+    width: 21%;
+    border-radius: 10px;
+}
+
+.shoe-images img {
+    width: 10vw;
+    height: 8vw;
+    object-fit: contain;
+}
